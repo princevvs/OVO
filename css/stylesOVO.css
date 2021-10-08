@@ -1,0 +1,44 @@
+title {
+  font: optional;
+}
+
+h1 {
+  font: bold;
+  font-style: italic;
+}
+
+@import url("https://css.gg/shopping-bag.css");
+
+body {
+  background-color: Beige;
+  color: aliceblue;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* Grids make it easier to move content around */
+}
+
+p {
+  color: rgb(51, 44, 3);
+  font-size: medium;
+}
+
+.Class3 {
+  grid-row: 2 / 3;
+  grid-column: 4 / 5;
+  display: flex;
+  text-align: center;
+  color: blue;
+}
+
+div {
+  background-color: beige;
+  display: grid;
+  grid-row: 3 / 4;
+  grid-column: 1 / 5;
+}
+
+a {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-style: italic;
+}
